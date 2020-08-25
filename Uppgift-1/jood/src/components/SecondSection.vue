@@ -1,21 +1,26 @@
 <template>
     <div>
-        <div class="container p-top">
-            <div class="row">
-                <div class="col d-flex justify-content-center">
-                    <img class="" src="../assets/ec-logo-mono.png" alt="">
+
+
+        <div class="container mt-5 disableOnPhone">
+            <div class="owl-carousel owl-theme" id="owl">
+
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="../assets/ec-logo-mono.png" alt="">
                 </div>
-                <div class="col disableOnPhone">
-                    <img class="ml-3" src="../assets/ec-logo-mono.png" alt="">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="../assets/ec-logo-mono.png" alt="">
                 </div>
-                <div class="col disableOnPhone">
-                    <img class="ml-3" src="../assets/ec-logo-mono.png" alt="">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="../assets/ec-logo-mono.png" alt="">
                 </div>
-                <div class="col disableOnPhone">
-                    <img class="ml-3" src="../assets/ec-logo-mono.png" alt="">
+                <div class="d-flex justify-content-center align-items-center">
+                    <img src="../assets/ec-logo-mono.png" alt="">
                 </div>
+
             </div>
         </div>
+
         <div class="container mt-5 p-bottom">
             <div class="row -m-top">
                 <div class="col-lg-6 mt-5 disableMe">
@@ -79,6 +84,10 @@ export default {
 
     @media (min-width: 576px) { 
 
+        .disableOnPhone {
+            display: block;
+        }
+
         .p-bottom {
             padding-bottom: 8rem;
         }
@@ -89,9 +98,6 @@ export default {
     }
 
     @media (min-width: 992px) {
-        .disableOnPhone {
-            display: block;
-        }
         .disableMe {
             display: block;
         }

@@ -45,6 +45,24 @@ export default {
     --ownLightGray: #8A8A8A;  
   }
 
+  .owl-item > div {
+    cursor: pointer;
+    margin: 15% 8%;
+    transition: margin 0.5s ease-in-out;
+}
+
+  .owl-item.center > div {
+    margin: 0;
+  }
+
+  .bgPhone {
+    background-image: url('./assets/iPhoneCase.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 8px 0;
+  }
+
   .my-orange {
     color: #FFBB00;
   }
