@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="container pt-5 mt-4 pb-4 mb-5">
-            <div class="row row-cols-1">
+            <div class="row row-cols-1" data-aos="fade-down" data-aos-duration="2000">
                 <div class="col-12 text-center">
                     <h1 class="Roboto heading">Contact Us</h1>
                 </div>
@@ -9,7 +9,7 @@
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's</p>
                 </div>           
             </div>
-            <form>
+            <form data-aos="fade-up" data-aos-duration="2000">
                 <div class="row">
                     <div class="col">
                         <input type="text" class="form-control p-2" placeholder="Enter Your Name">

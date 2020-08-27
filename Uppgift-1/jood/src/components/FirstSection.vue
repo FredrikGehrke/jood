@@ -31,7 +31,7 @@
       </nav>
       <div class="container" id="headingSection">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-right" data-aos-duration="2500">
             <div class="my-m-top">
               <h1 class="Poppins heading">Creative Way To Showcase Your App</h1>
               <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply</p>
@@ -44,7 +44,7 @@
               </div>              
             </div>
           </div>
-          <div class="col-lg-6 mt-5">
+          <div class="col-lg-6 mt-5" data-aos="fade-left" data-aos-duration="2500">
               <img class="img-fluid" src="../assets/Mobile.png" alt="">
           </div>
         </div>

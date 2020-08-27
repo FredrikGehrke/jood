@@ -1,9 +1,7 @@
 <template>
     <div>
-
-
-        <div class="container mt-5 disableOnPhone">
-            <div class="owl-carousel owl-theme" id="owl">
+        <div class="container mt-5 disableOnPhone" data-aos="zoom-in" data-aos-duration="2500">
+            <div class="owl-carousel owl-theme" id="owl2">
 
                 <div class="d-flex justify-content-center align-items-center">
                     <img src="../assets/ec-logo-mono.png" alt="">
@@ -23,10 +21,10 @@
 
         <div class="container mt-5 p-bottom">
             <div class="row -m-top">
-                <div class="col-lg-6 mt-5 disableMe">
+                <div class="col-lg-6 mt-5 disableMe" data-aos="flip-up" data-aos-duration="2500">
                     <img class="img-fluid" src="../assets/AboutUs.png" alt="">
                 </div>
-                <div class="col-lg-6 m-top">
+                <div class="col-lg-6 m-top" data-aos="zoom-in-right" data-aos-duration="2500">
                     <div>
                         <button type="button" class="btn aboutUsBtn">About Us</button>
                     </div>

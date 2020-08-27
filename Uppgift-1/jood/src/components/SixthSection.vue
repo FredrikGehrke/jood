@@ -2,7 +2,7 @@
     <div class="sixth-bg">
         <div class="container p-top p-bottom">
             <div class="row">
-                <div class="col-12 col-xl-7 ">
+                <div class="col-12 col-xl-7" data-aos="zoom-in-right" data-aos-duration="2000">
                     <div>
                         <h1 class="Roboto heading">Download the application now ! <br> to enjoy its features</h1>
                         <p class="mt-4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
@@ -16,7 +16,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-0 col-xl-5 disableMe m-top">
+                <div class="col-0 col-xl-5 disableMe m-top" data-aos="fade-left" data-aos-duration="2000">
                     <img class="img-fluid" src="../assets/iPhones.png" alt="">
                 </div>
             </div>          

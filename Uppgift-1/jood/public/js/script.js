@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-    var owl = $('#owl');
-    owl.owlCarousel({
+    var owl2 = $('#owl2');
+    owl2.owlCarousel({
         items: 4,
         loop: true,
         margin: 50,
@@ -10,14 +10,11 @@ $(document).ready(function() {
         autoplayHoverPause:true
     })
 
-    var owl2 = $('#owl2');
-    // owl2.children().each( function( index ) {
-    //     $(this).attr( 'data-position', index ); // NB: .attr() instead of .data()
-    // });
-    owl2.owlCarousel({
+    $('.loop').owlCarousel({
+        center: true,
         items: 5,
         loop: true,
-        margin: 30, 
+        margin: 25, 
         autoplay: true,
         autoplayTimeout:3000,
         autoplayHoverPause:true,
@@ -36,6 +33,9 @@ $(document).ready(function() {
                 items: 5,
             }
         }
-    })
+    }) 
+
+// AOS INIT
+    AOS.init();
 
 })

@@ -45,11 +45,31 @@ export default {
     --ownLightGray: #8A8A8A;  
   }
 
+  .owl-item.active {
+    opacity: 0.5;
+  }
+
+  .owl-item.active + div {
+    opacity: 0.8;
+  }
+
+  .owl-item.active + div + div {
+    opacity: 1;
+  }
+
+  .owl-item.active + div + div + div {
+    opacity: 0.8;
+  }
+
+  .owl-item.active + div + div + div + div {
+    opacity: 0.5;
+  }
+
   .owl-item > div {
     cursor: pointer;
     margin: 15% 8%;
     transition: margin 0.5s ease-in-out;
-}
+  }
 
   .owl-item.center > div {
     margin: 0;

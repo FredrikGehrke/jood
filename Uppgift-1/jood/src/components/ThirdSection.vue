@@ -2,7 +2,7 @@
     <div class="third-section-bg p-top-lg p-bottom">
         <div class="container p-bottom text-dark">
             <div class="row -m-top">
-                <div class="col-lg-7 m-top">
+                <div class="col-lg-7 m-top" data-aos="fade-down" data-aos-duration="2500">
                     <div>
                         <button type="button" class="btn aboutUsBtn">Features</button>
                     </div>
@@ -64,7 +64,7 @@
                     </div>
                     
                 </div>
-                <div class="col-lg-5">
+                <div class="col-lg-5" data-aos="flip-left" data-aos-duration="2500">
                     <img class="img-fluid" src="../assets/Mobile-1.png" alt="">
                 </div>
             </div>          
