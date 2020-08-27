@@ -11,7 +11,7 @@
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br> Lorem Ipsum has been the industry's</p>
                     </div>
                 </div>
-                <div class="loop owl-carousel bgPhone">                                      
+                <div class="loop owl-carousel bgPhone" id="screenDIV">                                      
                     <div class="d-flex justify-content-center align-items-center">
                         <img src="../assets/Screen.png" alt="">
                     </div>
