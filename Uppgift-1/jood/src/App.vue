@@ -65,6 +65,12 @@ export default {
     opacity: 0.5;
   }
 
+  @media (max-width: 1024px) { 
+    #screenDIV .owl-item.active + div + div {
+      opacity: 0.5;
+    }
+  }
+
   .owl-item > div {
     cursor: pointer;
     margin: 15% 8%;
