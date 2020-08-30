@@ -42,7 +42,7 @@ export default {
 <style scoped>
 
     .my-margin {
-        height: 28rem;
+        height: 32rem;
     }
 
     @media (min-width: 768px) { 
