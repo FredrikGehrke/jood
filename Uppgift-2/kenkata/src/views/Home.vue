@@ -1,5 +1,46 @@
 <template>
-  <div class="my-relative">
+<!-- <div>
+
+
+    <div id="carouselExampleIndicators" class="carousel slide greyBG" data-ride="carousel">
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="my-mt">
+            <h1 class="title black">Shopping is</h1>
+            <h1 class="title my-blue-color font-weight-bold">MORE FUN</h1>
+            <p class="subtitle">Vivamus dignissim a ex eu ornare. Ut fermentum orci <br>
+            vel diam ultricies faucibus. Quisque quis erat sed</p>
+            <a href="#"><button type="button" class="btn btn-lg WHITE-BTN font-weight-bold my-blue-color">SHOP NOW</button></a>
+            </div>
+          </div>
+          <div class="col-8">
+              <img class="d-block imgCarousel" src="@/assets/peopleImg.png" alt="First slide">
+          </div>
+
+        </div> 
+        <div class="carousel-item">
+          <div class="container">
+            <div class="my-mt">
+            <h1 class="title black">Shopping is</h1>
+            <h1 class="title my-blue-color font-weight-bold">MORE FUN</h1>
+            <p class="subtitle">Vivamus dignissim a ex eu ornare. Ut fermentum orci <br>
+            vel diam ultricies faucibus. Quisque quis erat sed</p>
+            <a href="#"><button type="button" class="btn btn-lg WHITE-BTN font-weight-bold my-blue-color">SHOP NOW</button></a>
+            </div>
+          </div>
+          <div class="col-8">
+              <img class="d-block imgCarousel" src="@/assets/peopleImg.png" alt="First slide">
+          </div>
+
+        </div> 
+
+      </div>
+    </div>
+
+</div> -->
+
+  <div class="my-relative my-mobile-height">
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -18,14 +59,6 @@
           <img class="d-block w-100" src="@/assets/HomeBG.png" alt="Third slide">
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <i class="fas fa-chevron-left arrow-btns"></i>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <i class="fas fa-chevron-right arrow-btns"></i>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
 
     <div class="covertext container">
@@ -40,58 +73,131 @@
       </div>
     </div>
 
+  <shortInfo class="mt-5 pt-5"/>
+
+  <shopByCategory class="mt-5 pt-5" /> 
+
+
   </div>
 </template>
 
 <script>
 
 
+import shortInfo from '@/components/shortInfo.vue'
+import shopByCategory from '@/components/shopByCategory.vue'
+
 
 export default {
   name: 'Home',
   components: {
-
+    shortInfo,
+    shopByCategory,
   }
 }
 </script>
 
 <style scoped>
 
+
+  .my-mt {
+    padding-top: 5rem;
+  }
+
+  .greyBG {
+    background-image: url('../assets/greyBG.png');
+    width: 100%;
+    background-size: cover;
+    color: white; 
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .black {
+    color: black;
+  }
+
+  .imgCarousel {
+    margin-left: 45vw;
+    margin-top: -30vh;
+  }
+
+  /* filip */
+
+
+  .my-mobile-height {
+    height: 28rem;
+  }
+
+  /* INTE POSITION FÖR BLIR VIT KANT, SKROLL OSV */
+
   .my-relative {
     position: relative;
   }
 
   .covertext {
-    position: absolute; /* To make the div to be place anywhere. It is out of the document flow */
-    top: 120px; /* The distance between the div with the top of document */
-    left: 0px; /* Make the div full width */
-    right: 0px; /* Make the div full width */
+    position: absolute; 
+    top: 155x; 
+    left: 0px; 
+  }
+
+  .WHITE-BTN {
+    background-color: var(--ownBlue);
+    color: white;
   }
 
   .title {
     font-size: 60px;
   }
 
-  .subtitle {
 
+  .subtitle {
+    color: black;
   }
 
 
-  .arrow-btns {
-    font-size: 30px;
+@media (min-width: 576px) {  
+
+  .title {
+    font-size: 40px;
+  }
+
+  .my-mobile-height {
+    height: auto;
+  }
+
+  .covertext {
+    top: 8px; 
+    right: 15px;  
+  }
+
+  .WHITE-BTN {
+    background-color: white;
     color: var(--ownBlue);
   }
 
-  /* .first-section {
-    position: absolute;
-    right: 10%;
-    bottom: 250px;
-    left: 400px;
-    z-index: 10;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    color: #fff;
-    text-align: left;
-  } */
+}
+
+@media (min-width: 768px) {  }
+
+@media (min-width: 992px) {  
+  .covertext {
+    top: 40px; 
+  }
+}
+
+@media (min-width: 1200px) { 
+
+  .title {
+    font-size: 60px;
+  }
+
+  .covertext { 
+    top: 140px; 
+    right: 20px; 
+  }
+
+}
+
 
 </style>
