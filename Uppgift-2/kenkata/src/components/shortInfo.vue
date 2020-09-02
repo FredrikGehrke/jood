@@ -2,21 +2,21 @@
     <div>
         <div class="margin">
             <div class="row black">
-                <div class="col-12 col-md pl-0 bg pr-0 ml-4 my-hover">
-                    <div class="d-flex flex-row bd-highlight pt-3">
+                <div class="col col-sm-6 col-md-6 col-xl mb-3">
+                    <div class="d-flex flex-row bd-highlight pt-3 bg my-hover">
                         <div class="pl-4 pr-3 pt-3 bd-highlight">
                             <img src="../assets/Box.png" alt="">
                         </div>
                         <div class="p-2 bd-highlight">
                             <div class="my-blue-color font-weight-bold">
                                 <h6>Free Shipping</h6>
-                                <p class="black font-weight-normal mt-2">For a local customer, we provide <br> free shipping facility</p>
+                                <p class="black font-weight-normal mt-2">For a local customer, we provide free shipping facility</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md pl-0 bg pr-0 ml-4 my-hover">
-                    <div class="d-flex flex-row bd-highlight pt-3">
+                <div class="col col-sm-6 col-md-6 col-xl mb-3">
+                    <div class="d-flex flex-row bd-highlight pt-3 bg my-hover">
                         <div class="pl-4 pr-3 pt-3 bd-highlight">
                             <img class="" src="../assets/24icon.png" alt="">
                         </div>
@@ -28,8 +28,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md pl-0 bg pr-0 ml-4 my-hover">
-                    <div class="d-flex flex-row bd-highlight pt-3">
+                <div class="col col-sm-6 col-md-6 col-xl mb-3">
+                    <div class="d-flex flex-row bd-highlight pt-3 bg my-hover">
                         <div class="pl-4 pr-3 pt-3 bd-highlight">
                             <img src="../assets/paymentIcon.png" alt="">
                         </div>
@@ -41,8 +41,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md pl-0 bg pr-0 ml-4 my-hover">
-                    <div class="d-flex flex-row bd-highlight pt-3">
+                <div class="col col-sm-6 col-md-6 col-xl mb-3">
+                    <div class="d-flex flex-row bd-highlight pt-3 bg my-hover">
                         <div class="pl-4 pr-3 pt-3 bd-highlight">
                             <img src="../assets/Outline.png" alt="">
                         </div>
@@ -55,7 +55,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </template>
@@ -69,38 +68,43 @@ export default {
 <style scoped>
 
 .my-hover:hover {
-    background-color: #20D3C2;
     color: white !important; 
 } 
 
-/* .my-hover h6:hover {
-    color: rgb(255, 255, 255);
-
-}  */
+.my-hover:hover { background-color: #20D3C2; }
+.my-hover:hover h6, .my-hover:hover p { color: white; }
+.my-hover:hover img { filter: brightness(0) invert(1)}
 
 .hover-color:hover {
     color: white !important;
 }
 
 .margin {
-    margin-right: 6rem;
-    margin-left: 6rem;
-    
+    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .bg {
     background-image: url('../assets/shortRectangle.png');
-    width: 100%;
-    background-size: cover;
-    color: white; 
-    background-repeat: no-repeat;
-    background-position: top;
     border-radius: 12px;
 }
 
+p {
+    font-size: 14px;
+}
 
 .black {
     color: black;
+}
+
+
+@media (min-width: 1600px) { 
+
+    .margin {
+        margin-right: 9rem;
+        margin-left: 9rem;
+    }
+
 }
 
 </style>

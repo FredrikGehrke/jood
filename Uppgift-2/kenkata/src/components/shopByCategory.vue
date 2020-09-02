@@ -4,17 +4,19 @@
         <div class="container pl-0 pr-0 pb-5">
             <div class="row">
                 <div class="col-12">
-                    <div class="d-flex flex-row justify-content-center">
-                        <h1 class="pr-2 font-weight-bold">SHOP BY</h1>
-                        <h1 class="my-blue-color font-weight-bold">CATEGORY</h1>
+                    <div class="d-flex flex-row justify-content-center text-center">
+                        <h1 class="pr-2 font-weight-bold">SHOP BY <span class="my-blue-color">CATEGORY</span></h1>
                     </div>
                     <div class="d-flex justify-content-center">
                         <img src="../assets/wave.png" alt="">
                     </div>
-                    <div class="d-flex justify-content-center pt-3">
+                    <div class="d-flex justify-content-center pt-3 text-center">
                         <p>We always try to give you the best product within a fast and reliable way</p>
                     </div>
                 </div>
+                
+
+
                 
                 <div class="grid m-auto">
                     <div class="grid-item mr-2 d-flex align-items-end">
@@ -55,41 +57,42 @@
                     </div>
                 </div>
 
-                <div class="grid2 m-auto">
-                    <div class="grid-item mr-2 d-flex align-items-end ">
+
+
+                <div class="grid2 container my-pl">
+                    <div class="grid-item grid-item1-MOBILE mr-2 d-flex align-items-end">
                         <div class="bg-color">
-                            <p class="font-weight-bold my-blue-color mb-1 pl-3 pt-1">Men</p>
+                            <p class="font-weight-bold my-blue-color mb-1 pl-2 pt-1">Men</p>
                         </div>
                     </div>
-                    <div class="grid-item mr-2 d-flex align-items-end">
+                    <div class="grid-item grid-item1-MOBILE mr-2 d-flex align-items-end">
                         <div class="bg-color">
-                            <p class="font-weight-bold my-blue-color mb-1 pl-3 pt-1">Women</p>
+                            <p class="font-weight-bold my-blue-color mb-1 pl-2 pt-1">Women</p>
                         </div>
                     </div>
-                    <div class="grid-item mr-2 d-flex align-items-end">
+                    <div class="grid-item grid-item1-MOBILE mr-2 d-flex align-items-end">
                         <div class="bg-color">
-                            <p class="font-weight-bold my-blue-color mb-1 pl-3 pt-1">Kids</p>
+                            <p class="font-weight-bold my-blue-color mb-1 pl-2 pt-1">Kids</p>
                         </div>
                     </div>
-                    <div class="grid-item mr-2 d-flex align-items-end mb-2">
+                    <div class="grid-item grid-item1-MOBILE mr-2 d-flex align-items-end mb-2">
                         <div class="bg-color">
-                            <p class="font-weight-bold my-blue-color mb-1 pl-3 pt-1">Hats</p>
+                            <p class="font-weight-bold my-blue-color mb-1 pl-2 pt-1">Hats</p>
                         </div>
                     </div>
-                    <div class="grid-item mr-2 d-flex align-items-end">
+                    <div class="grid-item grid-item1-MOBILE mr-2 d-flex align-items-end">
                         <div class="bg-color">
-                            <p class="font-weight-bold my-blue-color mb-1 pl-3 pt-1">Shoes</p>
+                            <p class="font-weight-bold my-blue-color mb-1 pl-2 pt-1">Shoes</p>
                         </div>
                     </div>
-                    <div class="grid-item mr-2 d-flex align-items-end">
+                    <div class="grid-item grid-item1-MOBILE mr-2 d-flex align-items-end">
                         <div class="bg-color">
-                            <p class="font-weight-bold my-blue-color mb-1 pl-3 pt-1">Watches</p>
+                            <p class="font-weight-bold my-blue-color mb-1 pl-2 pt-1">Watches</p>
                         </div>
                     </div>
-                    <div class="grid-item grid-itemSM mr-2 d-flex align-items-end">
+                    <div class="grid-item grid-item2-MOBILE mr-2 d-flex align-items-end">
                         <div class="bg-color">
-                            <p class="font-weight-bold my-blue-color mb-1 pl-3 pt-1">Sunglasses</p>
-                            <p class="mb-2 pl-3 white">18 products</p>
+                            <p class="font-weight-bold my-blue-color mb-1 pl-2 pt-1">Sunglasses</p>
                         </div>
                     </div>
                 </div>
@@ -112,9 +115,14 @@ export default {
 
 .bg-color {
     background-color: #0E153D;
-    width: 48%;
+    width: 100%;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.my-pl {
+    padding-left: 2rem;
 }
 
 .my-margin {
@@ -144,19 +152,52 @@ export default {
 
 .grid-item1 { width: 200px; height: 190px; }
 .grid-item2 { width: 400px; height: 200px; }
-.grid-itemSM { width: 408px; height: 200px; }
+/* .grid-itemSM { width: 408px; height: 200px; } */
 .grid-item3 { width: 400px; height: 400px; }
 .grid-item--width4 { width: 640px; }
 
+/* MOBILE */
+.grid-item1-MOBILE { 
+    width: 80px !important; 
+    height: 80px!important; 
+    border-radius: 5px;
+}
+.grid-item2-MOBILE { 
+    width: 168px !important; 
+    height: 80px !important;
+    border-radius: 5px; 
+}
 
 
-@media (min-width: 576px) {  }
 
-@media (min-width: 768px) {  }
+@media (min-width: 576px) {
+    .my-pl {
+        padding-left: 15px;
+    }
+ }
 
-@media (min-width: 992px) {  }
+@media (min-width: 768px) { 
+    /* iPad */
+    .grid-item1-MOBILE { 
+        width: 85px !important; 
+        height: 85px!important; 
+        border-radius: 5px;
+    }
+    .grid-item2-MOBILE { 
+        width: 180px !important; 
+        height: 85px !important;
+        border-radius: 5px; 
+    }
+}
+
+@media (min-width: 992px) { }
 
 @media (min-width: 1200px) { 
+
+    .bg-color {
+        width: 48%;
+        border-bottom-right-radius: 0px;
+    } 
 
     .grid {
         display: block;

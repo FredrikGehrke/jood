@@ -1,46 +1,5 @@
 <template>
-<!-- <div>
-
-
-    <div id="carouselExampleIndicators" class="carousel slide greyBG" data-ride="carousel">
-      <div class="carousel-inner ">
-        <div class="carousel-item active">
-          <div class="container">
-            <div class="my-mt">
-            <h1 class="title black">Shopping is</h1>
-            <h1 class="title my-blue-color font-weight-bold">MORE FUN</h1>
-            <p class="subtitle">Vivamus dignissim a ex eu ornare. Ut fermentum orci <br>
-            vel diam ultricies faucibus. Quisque quis erat sed</p>
-            <a href="#"><button type="button" class="btn btn-lg WHITE-BTN font-weight-bold my-blue-color">SHOP NOW</button></a>
-            </div>
-          </div>
-          <div class="col-8">
-              <img class="d-block imgCarousel" src="@/assets/peopleImg.png" alt="First slide">
-          </div>
-
-        </div> 
-        <div class="carousel-item">
-          <div class="container">
-            <div class="my-mt">
-            <h1 class="title black">Shopping is</h1>
-            <h1 class="title my-blue-color font-weight-bold">MORE FUN</h1>
-            <p class="subtitle">Vivamus dignissim a ex eu ornare. Ut fermentum orci <br>
-            vel diam ultricies faucibus. Quisque quis erat sed</p>
-            <a href="#"><button type="button" class="btn btn-lg WHITE-BTN font-weight-bold my-blue-color">SHOP NOW</button></a>
-            </div>
-          </div>
-          <div class="col-8">
-              <img class="d-block imgCarousel" src="@/assets/peopleImg.png" alt="First slide">
-          </div>
-
-        </div> 
-
-      </div>
-    </div>
-
-</div> -->
-
-  <div class="my-relative my-mobile-height">
+  <div>
 
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -50,18 +9,48 @@
       </ol>
       <div class="carousel-inner">
         <div class="carousel-item active">
+
+            <div class="carousel-caption text-left container display-ipad my-mb">
+              <div class="col-md-6 pl-0 mr-auto">
+                <h1 class="title black">Shopping is</h1>
+                <h1 class="title my-blue-color font-weight-bold">MORE FUN</h1>
+                <p class="subtitle">Vivamus dignissim a ex eu ornare. Ut fermentum orci <br>
+                  vel diam ultricies faucibus. Quisque quis erat sed</p>
+                  <a href="#"><button type="button" class="btn WHITE-BTN font-weight-bold my-blue-color">SHOP NOW</button></a>
+              </div>
+            </div>
+
           <img class="d-block w-100" src="@/assets/HomeBG.png" alt="First slide">
         </div>
         <div class="carousel-item">
+            <div class="carousel-caption text-left container display-ipad my-mb">
+              <div class="col-md-6 pl-0 mr-auto">
+                <h1 class="title black">Shopping is</h1>
+                <h1 class="title my-blue-color font-weight-bold">MORE FUN</h1>
+                <p class="subtitle">Vivamus dignissim a ex eu ornare. Ut fermentum orci <br>
+                  vel diam ultricies faucibus. Quisque quis erat sed</p>
+                  <a href="#"><button type="button" class="btn WHITE-BTN font-weight-bold my-blue-color">SHOP NOW</button></a>
+              </div>
+            </div>
           <img class="d-block w-100" src="@/assets/HomeBG.png" alt="Second slide">
         </div>
         <div class="carousel-item">
+              <div class="carousel-caption text-left container display-ipad my-mb">
+              <div class="col-md-6 pl-0 mr-auto">
+                <h1 class="title black">Shopping is</h1>
+                <h1 class="title my-blue-color font-weight-bold">MORE FUN</h1>
+                <p class="subtitle">Vivamus dignissim a ex eu ornare. Ut fermentum orci <br>
+                  vel diam ultricies faucibus. Quisque quis erat sed</p>
+                  <a href="#"><button type="button" class="btn WHITE-BTN font-weight-bold my-blue-color">SHOP NOW</button></a>
+              </div>
+            </div>
           <img class="d-block w-100" src="@/assets/HomeBG.png" alt="Third slide">
         </div>
       </div>
     </div>
 
-    <div class="covertext container">
+
+    <div class="covertext container display-sm">
       <div class="">
         <h1 class="title">Shopping is</h1>
         <h1 class="title my-blue-color font-weight-bold">MORE FUN</h1>
@@ -76,6 +65,8 @@
   <shortInfo class="mt-5 pt-5"/>
 
   <shopByCategory class="mt-5 pt-5" /> 
+  
+  <newArrivals class="mt-5" />
 
 
   </div>
@@ -86,6 +77,7 @@
 
 import shortInfo from '@/components/shortInfo.vue'
 import shopByCategory from '@/components/shopByCategory.vue'
+import newArrivals from '@/components/newArrivals.vue'
 
 
 export default {
@@ -93,16 +85,12 @@ export default {
   components: {
     shortInfo,
     shopByCategory,
+    newArrivals,
   }
 }
 </script>
 
 <style scoped>
-
-
-  .my-mt {
-    padding-top: 5rem;
-  }
 
   .greyBG {
     background-image: url('../assets/greyBG.png');
@@ -117,58 +105,38 @@ export default {
     color: black;
   }
 
-  .imgCarousel {
-    margin-left: 45vw;
-    margin-top: -30vh;
-  }
-
-  /* filip */
-
-
-  .my-mobile-height {
-    height: 28rem;
-  }
-
-  /* INTE POSITION FÖR BLIR VIT KANT, SKROLL OSV */
-
-  .my-relative {
-    position: relative;
-  }
-
-  .covertext {
-    position: absolute; 
-    top: 155x; 
-    left: 0px; 
-  }
-
   .WHITE-BTN {
     background-color: var(--ownBlue);
     color: white;
   }
 
   .title {
-    font-size: 60px;
+    font-size: 30px !important;
   }
 
 
   .subtitle {
     color: black;
+    font-size: 12px;
+  }
+
+  .display-ipad {
+    display: none;
   }
 
 
 @media (min-width: 576px) {  
 
+  .display-ipad {
+    display: block;
+  }
+
+  .display-sm {
+    display: none;
+  }
+
   .title {
     font-size: 40px;
-  }
-
-  .my-mobile-height {
-    height: auto;
-  }
-
-  .covertext {
-    top: 8px; 
-    right: 15px;  
   }
 
   .WHITE-BTN {
@@ -181,22 +149,28 @@ export default {
 @media (min-width: 768px) {  }
 
 @media (min-width: 992px) {  
-  .covertext {
-    top: 40px; 
+  .title {
+    font-size: 40px !important;
+  }
+
+  .my-mb {
+    margin-bottom: 1rem;
+  }
+
+  .subtitle {
+    font-size: 14px;
   }
 }
 
-@media (min-width: 1200px) { 
+@media (min-width: 1550px) { 
 
   .title {
-    font-size: 60px;
+    font-size: 60px !important;
   }
 
-  .covertext { 
-    top: 140px; 
-    right: 20px; 
+  .my-mb {
+    margin-bottom: 9rem;
   }
-
 }
 
 
