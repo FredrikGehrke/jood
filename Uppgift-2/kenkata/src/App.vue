@@ -37,6 +37,10 @@ export default {
     --ownLightGray: #8A8A8A;  
   }
 
+  button {
+    outline: 0 !important;
+  }
+
   .my-blue-color {
     color: var(--ownBlue);
   }
@@ -58,6 +62,11 @@ export default {
     background-color: white;
     border-radius: 30px;
     padding: 8px 20px 8px 20px;
+  }
+
+  .WHITE-BTN:hover {
+    background-color: var(--ownBlue) !important;
+    color: white !important;
   }
 
 
