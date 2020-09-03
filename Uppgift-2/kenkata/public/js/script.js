@@ -37,4 +37,8 @@ $(document).ready(function() {
     // AOS INIT
     // AOS.init();
 
+
+    $('[data-toggle="tooltip"]').tooltip()
+
+
 })

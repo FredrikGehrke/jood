@@ -23,7 +23,8 @@
                   <img class="bg-grey hover-me" src="../assets/guy1.png" alt="">
                   <div class="new-box white">
                     <p class="mb-0 pt-p">NEW</p>
-                  </div>                      
+                  </div>
+
                   <div class="my-show white pl-3">
                     <div class="d-flex">
                       <div class="my-mt-box mr-auto ">
@@ -43,6 +44,8 @@
                       </div>
                     </div>
                   </div>
+
+                  
                   <p class="bgCBlue">Blue silk flare sleeved top</p>
                 </div>
               </div>
@@ -205,7 +208,7 @@ export default {
 }
 
 .my-show {
-  background-color: #0e153dee;
+  background-color: #0e153de5;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
   border-bottom-left-radius: 5px;
@@ -237,7 +240,7 @@ export default {
 }
 
 .bgCBlue{
-  background-color: #0E153D;
+  background-color: #0e153d;
   padding: 0.5rem;
   padding-left: 1rem;
   color: white;
