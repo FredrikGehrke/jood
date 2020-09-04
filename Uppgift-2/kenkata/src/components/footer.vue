@@ -1,7 +1,7 @@
 <template>
     <div>
 
-        <div class="container pl-0 pr-0">
+        <div class="container" >
             <div class="row my-margin">
                 <div class="col-12 col-md-4 col-xl mb-4">
                     <img class="mx-auto d-block" src="../assets/Bexim.png" alt="">
@@ -23,8 +23,8 @@
         </div>
 
 
-        <div class="footerBG">
-            <div class="container pl-0 pr-0">
+        <div class="footerBG relative">
+            <div class="container ">
                 <div class="row pt-5 pb-5">
                     <div class="col col-md-6 col-xl-3">
                         <a class="navbar-brand" id="brand" href="#">
@@ -94,6 +94,8 @@
                         </div>
                     </div>
 
+                    <a id="topBtn" href="#" class="btn btn-light btn-lg back-to-top" role="button"><i class="fas fa-long-arrow-alt-up"></i></a>
+
                 </div>
 
             </div>
@@ -119,6 +121,28 @@ export default {
 </script>
 
 <style scoped>
+
+.relative {
+    position: relative;
+}
+
+#topBtn{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: var(--ownBlue);
+  color: white;
+  border: none;
+  cursor: pointer;
+  /* display: none; */
+}
+button {
+    outline: 0 !important;
+}
+
 
 .my-margin {
     margin-top: 6rem;

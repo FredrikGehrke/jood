@@ -68,6 +68,10 @@
   
   <newArrivals class="mt-5" />
 
+  <percent class="mt-5"/>
+
+  <featuredProducts class="mt-5 pt-5"/>
+
 
   </div>
 </template>
@@ -78,6 +82,8 @@
 import shortInfo from '@/components/shortInfo.vue'
 import shopByCategory from '@/components/shopByCategory.vue'
 import newArrivals from '@/components/newArrivals.vue'
+import percent from '@/components/percent.vue'
+import featuredProducts from '@/components/featuredProducts.vue'
 
 
 export default {
@@ -86,6 +92,8 @@ export default {
     shortInfo,
     shopByCategory,
     newArrivals,
+    percent,
+    featuredProducts,
   }
 }
 </script>

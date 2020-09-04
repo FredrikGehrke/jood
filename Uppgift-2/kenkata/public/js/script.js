@@ -20,6 +20,14 @@ $(document).ready(function() {
         }
     })
 
+    // $('#back-to-top').click(function () {
+    //     $('body,html').animate({
+    //         scrollTop: 0
+    //     }, 1000);
+    //     return false;
+    // });
+
+
     // $('.owl-carousel').owlCarousel({
     //     items: 3,
     //     loop: true,
@@ -38,7 +46,14 @@ $(document).ready(function() {
     // AOS.init();
 
 
-    $('[data-toggle="tooltip"]').tooltip()
+    // $('[data-toggle="tooltip"]').tooltip()
+    $('div').tooltip();
 
+    $('.fa-shopping-cart').data('tooltip-custom-class', 'tooltip-danger').tooltip();
+
+    $(document).on('inserted.bs.tooltip', function(e) {
+        var tooltip = $(e.target).data('bs.tooltip');
+        $(tooltip.tip).addClass($(e.target).data('tooltip-custom-class'));
+    });
 
 })
