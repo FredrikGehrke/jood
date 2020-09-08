@@ -5,7 +5,7 @@
                 <h1><strong>FLASH</strong><br><strong>SALE</strong></h1>
                 <p class="font-size">UP TO 50% OFF</p>
             </div>
-            <div class="right col-md-12 text-white text-center d-flex m-right p-md justify-content-center">
+            <div class="right col-md-12 col-xl-6 text-white text-center d-flex m-right p-md justify-content-center">
                 <div class="d-flex flex-column">
                     <div class="d-flex">
                         <div class="d-md-flex">

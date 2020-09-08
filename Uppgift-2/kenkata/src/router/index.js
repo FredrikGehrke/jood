@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Shop from '../views/Shop.vue'
+import NotFound from '../views/NotFound.vue'
 
 Vue.use(VueRouter)
 
@@ -15,7 +16,12 @@ Vue.use(VueRouter)
     path: '/shop',
     name: 'Shop',
     component: Shop
-  }
+  },
+  {
+    path: '*',
+    name: 'NotFound',
+    component: NotFound
+  },
 ]
 
 const router = new VueRouter({
