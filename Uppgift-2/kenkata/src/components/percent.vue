@@ -49,7 +49,7 @@ export default {
 }
 
 .my-btn {
-    background-color: #0E153D;
+    background-color: var(--darkerBlue);
     color: white;
     font-weight: 600;
     border-radius: 30px;
@@ -57,18 +57,7 @@ export default {
 }
 .my-btn:hover {
     background-color: white;
-    color: #0E153D;
+    color: var(--darkerBlue);
 }
-
-/* d-flex justify */
-
-/* @media (min-width: 576px) { 
-
-    .my-d-flex {
-        display: d-flex;
-        justify-content: space-between;
-    }
-
-} */
 
 </style>

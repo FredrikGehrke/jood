@@ -72,6 +72,15 @@
 
   <featuredProducts class="mt-5 pt-5"/>
 
+  <flashSale class="mt-5" />
+
+  <topSellers class="mt-5 pt-5" />
+
+  <rating class="mt-5"/>
+
+  <latestBlog class="mt-5 pt-5" />
+
+  <subscribe class="mt-5" />
 
   </div>
 </template>
@@ -84,6 +93,11 @@ import shopByCategory from '@/components/shopByCategory.vue'
 import newArrivals from '@/components/newArrivals.vue'
 import percent from '@/components/percent.vue'
 import featuredProducts from '@/components/featuredProducts.vue'
+import flashSale from '@/components/flashSale.vue'
+import topSellers from '@/components/topSellers.vue'
+import rating from '@/components/rating.vue'
+import latestBlog from '@/components/latestBlog.vue'
+import subscribe from '@/components/subscribe.vue'
 
 
 export default {
@@ -94,6 +108,11 @@ export default {
     newArrivals,
     percent,
     featuredProducts,
+    flashSale,
+    topSellers,
+    rating,
+    latestBlog,
+    subscribe
   }
 }
 </script>

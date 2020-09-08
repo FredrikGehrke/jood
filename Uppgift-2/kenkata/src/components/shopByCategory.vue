@@ -114,7 +114,7 @@ export default {
 <style scoped>
 
 .bg-color {
-    background-color: #0E153D;
+    background-color: var(--darkerBlue);
     width: 100%;
     border-top-right-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -152,9 +152,7 @@ export default {
 
 .grid-item1 { width: 200px; height: 190px; }
 .grid-item2 { width: 400px; height: 200px; }
-/* .grid-itemSM { width: 408px; height: 200px; } */
 .grid-item3 { width: 400px; height: 400px; }
-.grid-item--width4 { width: 640px; }
 
 /* MOBILE */
 .grid-item1-MOBILE { 
@@ -174,7 +172,7 @@ export default {
     .my-pl {
         padding-left: 15px;
     }
- }
+}
 
 @media (min-width: 768px) { 
     /* iPad */
