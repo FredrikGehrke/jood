@@ -27,9 +27,7 @@
                                 Shop <i class="fas fa-chevron-down smaller margin-link"></i>
                             </a>
                             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                <a class="dropdown-item" href="#">Action</a>
-                                <a class="dropdown-item" href="#">Another action</a>
-                                <a class="dropdown-item" href="#">Something else here</a>
+                                <a class="dropdown-item ml-3" href="/Shop">Show products</a>
                             </div>
                         </div>
                     </a>
@@ -41,9 +39,7 @@
                                     Products <i class="fas fa-chevron-down smaller margin-link"></i>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <a class="dropdown-item" href="#">Something else here</a>
+                                    <a class="dropdown-item ml-3" href="/Product">Product</a>
                                 </div>
                             </div>
                         </a>
@@ -98,6 +94,11 @@
 </script>
 
 <style scoped>
+
+.dropdown-item:hover {
+    background: none;
+    color: var(--ownBlue)
+}
 
 .special-btn {
     border-radius: 20px;

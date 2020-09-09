@@ -204,8 +204,9 @@
             
             </nav>
             <article class="content product-grid">
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -228,8 +229,8 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -252,8 +253,8 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -276,8 +277,8 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -300,8 +301,8 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -324,8 +325,8 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -348,8 +349,8 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -372,8 +373,8 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -396,8 +397,8 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -420,8 +421,8 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -444,8 +445,8 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -468,8 +469,8 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
-             <div class="item">
-                <img class="bg-grey hover-me" src="@/assets/smallThumb.png" alt="" width="267.33px">
+             <div class="item bg-grey mx-auto">
+                <img class="hover-me product-image" src="@/assets/smallThumb.png" alt="" width="267.33px">
                 <div class="new-box white">
                 <p class="mb-0 pt-p">NEW</p>
                 </div>                      
@@ -492,11 +493,28 @@
                 </div>
                 <p class="bgCBlue">Circle pattern girls shirt</p>
             </div>
+
+            <div class="d-none d-xl-block">
+                
+            </div>
+
+            <div class="justify-content-center align-items-center d-flex minus-margin">
+                <i class="fas fa-chevron-left arrows"></i>
+                <p class="mb-0 ml-3 mr-3">
+                    <span class="mr-2">8</span>
+                    <span class="my-blue-color ml-2 mr-2">9</span>
+                    <span class="mr-2">10</span>
+                    <span class="mr-2">...</span>
+                    <span class="mr-2">24</span>
+                    <span class="mr-2">25</span>
+                    <span class="mr-1">26</span>
+                </p>
+                <i class="fas fa-chevron-right arrows"></i>
+            </div>
+
             </article> 
 
-
         </div>
-
     </div>
 </template>
 
@@ -507,6 +525,28 @@ export default {
 </script>
 
 <style scoped>
+
+.minus-margin {
+    margin-top: -12rem;
+}
+
+.arrows {
+    font-size: 38px;
+    font-weight: 100;
+    border-radius: 50px;
+    color: rgb(214, 214, 214); 
+    padding: 12px 22px 12px 20px;
+    border: 1px solid rgb(214, 214, 214);
+} .arrows:hover {
+    color: white;
+    background: var(--ownBlue);
+    cursor: pointer;
+    border: 1px solid var(--ownBlue);
+}
+
+.product-image {
+    margin: auto;
+}
 
 .my-mt-box {
     margin-top: 10rem;
@@ -524,7 +564,6 @@ export default {
     height: 100%;
     width: 100%;
 }
-
 
 .product-grid {
     display: grid;
