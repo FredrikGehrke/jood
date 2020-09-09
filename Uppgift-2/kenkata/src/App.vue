@@ -42,7 +42,7 @@ export default {
   }
 
   .my-blue-color {
-    color: var(--ownBlue);
+    color: var(--ownBlue) !important;
   }
 
   .my-blue {

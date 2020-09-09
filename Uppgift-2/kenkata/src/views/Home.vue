@@ -16,7 +16,7 @@
                 <h1 class="title my-blue-color font-weight-bold">MORE FUN</h1>
                 <p class="subtitle">Vivamus dignissim a ex eu ornare. Ut fermentum orci <br>
                   vel diam ultricies faucibus. Quisque quis erat sed</p>
-                  <a href="#"><button type="button" class="btn WHITE-BTN font-weight-bold my-blue-color">SHOP NOW</button></a>
+                  <a href="/Shop"><button type="button" class="btn WHITE-BTN font-weight-bold my-blue-color">SHOP NOW</button></a>
               </div>
             </div>
 
@@ -29,7 +29,7 @@
                 <h1 class="title my-blue-color font-weight-bold">MORE FUN</h1>
                 <p class="subtitle">Vivamus dignissim a ex eu ornare. Ut fermentum orci <br>
                   vel diam ultricies faucibus. Quisque quis erat sed</p>
-                  <a href="#"><button type="button" class="btn WHITE-BTN font-weight-bold my-blue-color">SHOP NOW</button></a>
+                  <a href="/Shop"><button type="button" class="btn WHITE-BTN font-weight-bold my-blue-color">SHOP NOW</button></a>
               </div>
             </div>
           <img class="d-block w-100" src="@/assets/HomeBG.png" alt="Second slide">
