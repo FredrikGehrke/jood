@@ -9,12 +9,6 @@
             </div>
             <div class="col-12 col-md-5 pt-md-5 pt-xl-0">
                 <img src="../../assets/shoesShop.png" alt="" class="img-fluid ">
-                  <div class="new-box white">
-                    <p class="mb-0 pt-p">NEW</p>
-                  </div>
-                  <div class="twenty white">
-                    <p class="mb-0 pt-p">-20%</p>
-                  </div>
             </div>
           </div>
         </div>
@@ -33,24 +27,6 @@ export default {
 p {
   font-size: 20px;
   font-weight: bold;
-}
-
-.new-box {
-  background-color: var(--ownBlue);
-  padding: 0.8rem 0.8rem 1.1rem 0.8rem;
-  border-radius: 50px;
-  position: absolute;
-  top: 0px;
-  left: 60px;
-}
-
-.twenty {
-  background-color: #64CB83;
-  padding: 0.8rem 0.8rem 1.3rem 0.8rem;
-  border-radius: 50px;
-  position: absolute;
-  top: 30px;
-  left: 230px;
 }
 
 .WHITE-BTN {
