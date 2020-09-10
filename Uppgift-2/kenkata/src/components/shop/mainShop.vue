@@ -68,7 +68,7 @@
                     <div class="form-group">
                         <label for="formControlRange"><p class="my-blue-color font-weight-bold mt-5 mb-0">Filter by Price</p></label>
                         <input type="range" class="form-control-range" id="formControlRange">
-                        <p>Price: $0 - $10,000 <button class="btn text-white font-weight-bold ml-2">Filter</button></p>
+                        <p>Price: $0 - $10,000 <button class="btn text-white font-weight-bold ml-4">Filter</button></p>
                     </div>
                 </form>
                 <p class="my-blue-color font-weight-bold mt-5">Filter by Color</p>

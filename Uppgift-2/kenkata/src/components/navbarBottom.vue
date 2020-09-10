@@ -39,7 +39,7 @@
                                     Products <i class="fas fa-chevron-down smaller margin-link"></i>
                                 </a>
                                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                    <a class="dropdown-item ml-3" href="/Product">Product</a>
+                                    <a class="dropdown-item ml-3" href="/Products">Product</a>
                                 </div>
                             </div>
                         </a>
