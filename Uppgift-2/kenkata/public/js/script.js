@@ -43,31 +43,8 @@ $(document).ready(function() {
     })
 
 
-
-    // $('#back-to-top').click(function () {
-    //     $('body,html').animate({
-    //         scrollTop: 0
-    //     }, 1000);
-    //     return false;
-    // });
-
-
-    // $('.owl-carousel').owlCarousel({
-    //     items: 3,
-    //     loop: true,
-    //     margin: 50, 
-    //     autoplay: false,
-    //     autoWidth: false,
-    //     loop: true,
-    //     nav: true,
-    //     navText: [
-    //         '<i class="fa fa-angle-left" aria-hidden="true"></i>',
-    //         '<i class="fa fa-angle-right" aria-hidden="true"></i>'
-    //     ],
-    // }) 
-
     // AOS INIT
-    // AOS.init();
+    AOS.init();
 
 
     // $('[data-toggle="tooltip"]').tooltip()

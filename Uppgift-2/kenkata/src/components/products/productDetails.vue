@@ -43,16 +43,23 @@
                         <button class="btn my-blue text-white ml-5 addBtn"><i class="far fa-shopping-cart"></i> Add to cart</button>
                     </div>
                     <p class="mt-4">Category: <span class="my-blue-color">Shoes</span></p>
-                    <p>Tags: </p>
-                    <!-- <p class="border pl-2 my-width-p">Fashion</p> -->
+                    <div class="d-flex">
+                        <p>Tags: </p>
+                        <p class="my-border ml-3">Fashion</p>
+                        <p class="my-border ml-3">Shoes</p>
+                        <p class="my-border ml-3">Sneakers</p>
+                    </div>
+                    <div class="d-flex">
+                        <p class="mb-0 mt-1">Share: </p>
+                        <button class="media-buttons bg-insta-icon"><i class="fab fa-instagram"></i></button>
+                        <button class="media-buttons bg-twitter-icon"><i class="fab fa-twitter"></i></button>
+                        <button class="media-buttons bg-pinterest-icon"><i class="fab fa-pinterest"></i></button>
+                        <button class="media-buttons bg-facebook-icon"><i class="fab fa-facebook-f"></i></button>
+                        <button class="media-buttons bg-mail-icon"><i class="fas fa-envelope"></i></button>
+                    </div>
                 </div>
-
             </div>
         </div>
-
-
-
-
     </div>
 </template>
 
@@ -63,6 +70,37 @@ export default {
 </script>
 
 <style scoped>
+
+.bg-insta-icon {
+    background-color: #3b5999;
+}
+.bg-twitter-icon {
+    background-color: #619aee;
+}
+.bg-pinterest-icon {
+    background-color: #d40808;
+}
+.bg-facebook-icon {
+    background-color: #3f61f5;
+}
+.bg-mail-icon {
+    background-color: #34c997;
+}
+
+.media-buttons {
+    margin: 0 6px;
+    padding-left: 5px;
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+}
+
+.my-border {
+    border: 1px solid rgb(77, 77, 77);
+    padding: 0 5px 0 5px;
+}
 
 .addBtn {
     border-radius: 20px;
