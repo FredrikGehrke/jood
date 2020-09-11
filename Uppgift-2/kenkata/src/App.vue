@@ -51,7 +51,6 @@ export default {
 
   * {
     font-family: 'Roboto', sans-serif;
-    /* padding: 0 !important; */
   }
 
   .Roboto {
